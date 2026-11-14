@@ -1,13 +1,15 @@
 # Scapy Stealth Scanner
 
-Инструмент сетевого анализа и скрытого сканирования TCP-портов на **Python** с использованием библиотеки **Scapy**.
+> 🌐 **Language:** **English** | [Русский (README_Ru.md)](README_Ru.md)
 
-## ✨ Возможности
-- 🕵️ **TCP Xmas Scan (`FPU` flags)** — отправка нестандартных TCP-пакетов (`FIN`, `PSH`, `Urgent`) для определения открытых и фильтруемых портов.
-- 🎭 **Поддержка IP Spoofing** — возможность подмены исходного IP-адреса (`src`) в заголовке пакета.
-- ⏱️ **Обход базовых сигнатур** — случайные задержки и перемешивание списка сканируемых портов.
+A network analysis and stealth TCP port scanning utility written in **Python** using **Scapy**.
 
-## 🚀 Запуск
+## ✨ Features
+- 🕵️ **TCP Xmas Scan (`FPU` flags)** — sends crafted TCP packets (`FIN`, `PSH`, `Urgent`) to distinguish between open and filtered ports.
+- 🎭 **IP Spoofing Support** — allows forging the source IP address (`src`) in packet headers.
+- ⏱️ **Basic Signature Evasion** — randomized inter-packet delays and port-order shuffling.
+
+## 🚀 Usage
 
 ```bash
 pip install scapy
