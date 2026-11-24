@@ -15,3 +15,6 @@ A network analysis and stealth TCP port scanning utility written in **Python** u
 pip install scapy
 sudo python3 stealth_scanner.py
 ```
+
+## 📄 License
+MIT © [Goblin-Inc](https://github.com/Goblin-Inc)
