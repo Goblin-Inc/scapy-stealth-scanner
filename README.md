@@ -2,6 +2,8 @@
 
 > 🌐 **Language:** **English** | [Русский (README_Ru.md)](README_Ru.md)
 
+«for authorized / educational use only»
+
 A network analysis and stealth TCP port scanning utility written in **Python** using **Scapy**.
 
 ## ✨ Features
